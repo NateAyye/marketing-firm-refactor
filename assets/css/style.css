@@ -1,9 +1,11 @@
+/* Reseting all the elements margins */
 * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
 }
 
+/* Setting the color and background-color for all elements */
 body {
   background-color: #d9dcd6;
   color: #ffffff;
@@ -25,6 +27,7 @@ header h1 {
   color: #d9dcd6;
 }
 
+/* Add Spacing and font family for the navbar elements */
 nav {
   padding-top: 15px;
   margin-right: 20px;
@@ -36,12 +39,14 @@ nav {
 nav ul {
   list-style-type: none;
 }
-
+/* Make the list items only take up as much space as needed */
 nav ul li {
   display: inline-block;
   margin-left: 25px;
 }
 
+
+/* changing all of our links defalut color to an off white and no underline */
 a {
   color: #ffffff;
   text-decoration: none;
@@ -51,6 +56,7 @@ p {
   font-size: 1em;
 }
 
+/* Set the hero sections background image and height */
 .hero {
   height: 800px;
   width: 100%;
@@ -59,7 +65,7 @@ p {
   background-size: cover;
   background-position: center;
 }
-
+/* Helper Classes */
 .float-left {
   float: left;
   margin-right: 25px;
@@ -69,6 +75,7 @@ p {
   float: right;
   margin-left: 25px;
 }
+/* End of Helper Classes */
 
 .content {
   width: 75%;
@@ -76,6 +83,7 @@ p {
   margin-left: 20px;
 }
 
+/* All the Styling for the Aside element so that it can be shown next to the main element */
 .benefits {
   margin-right: 20px;
   padding: 20px;
@@ -102,6 +110,7 @@ p {
   max-width: 150px;
 }
 
+/* Styling our main Section */
 .content section {
   margin-bottom: 20px;
   padding: 50px;
@@ -119,6 +128,7 @@ p {
   font-size: 36px;
 }
 
+/* Setting the font family and the spacing and text alignment for the footer element */
 footer {
   padding: 30px;
   clear: both;
